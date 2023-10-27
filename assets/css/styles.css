@@ -1,0 +1,117 @@
+body{
+    background: linear-gradient(to right, rgb(31, 70, 24), pink);
+}
+
+/* navbarre */
+.nav-link {
+    color: rgb(250, 246, 246); 
+    font-size: small;
+}
+
+
+.navbar-brand {
+    font-size: x-small;
+    color: aliceblue;
+}
+
+/* banniere */
+
+.banniere {
+    background-image: url('/assets/images/baniere.png');
+    /* Image de fond  */
+    background-size: cover;
+    /* Ajuste la taille de l'image pour couvrir complètement la rangée */
+    background-repeat: no-repeat;
+    /* Empêche la répétition de l'image */
+    padding: 20px;
+    /* Ajoute un peu d'espacement intérieur pour le contenu de la rangée */
+    color: #e00e1f;
+    /* Couleur du texte */
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-small;
+    /* hauteur de l'image */
+    height: 200px; 
+    /* Pour centrer le texte verticalement */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* présentation */
+
+.univers{
+    padding : 10px;
+    text-align: center;
+    text-justify: auto;
+    
+}
+
+/* rangée de 3 card */
+
+.rang1, .rang2{
+    display: flex;
+   justify-content: space-around;
+   text-align: center;
+   color: rgb(241, 241, 243);
+   padding : 20px;
+}
+
+
+.card{
+    display: flex;
+   justify-content: space-around;
+   text-align: center;
+}
+
+/* police d'ecriture */
+h2,h5, .nav-link{
+    font-family: 'Fairies';
+    src: url(../fonts/Fairies.otf);
+}
+
+/* partie formulaire */
+
+.join{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(241, 241, 243);
+    padding : 5px;
+    
+}
+.contact{
+    border: solid;
+    border-color: darkslategrey;
+    background-color: darkslategrey;
+    color: azure;
+   margin-bottom: 10px;
+}
+
+.footer{
+   
+    display: flex;
+    justify-content: space-around;
+    background-color: darkslategrey;
+       
+}
+
+.card-text{
+    font-size: 8;
+}
+/* le hover des cards et icons  */
+svg:hover {
+    background-color: rgb(245, 244, 240);
+  }
+
+.card:hover{
+    background-color: dimgray;
+}
+.nav-brand:hover {
+    color: rgb(243, 129, 146);
+}
+.nav-link:hover {
+    color: rgb(243, 129, 146);
+}

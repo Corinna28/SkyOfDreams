@@ -1,0 +1,22 @@
+
+Énoncé TP Bootstrap :
+
+Vous devrez reproduire le visuel de ce qui vous a été fournit tout en utilisant Bootstrap.
+
+Vous aurez un screen de la version initial ainsi que la version md et lg dont vous pourrez observer des changements sur certains éléments donc soyez attentif.
+
+Les liens du menu sont des ancres qui redirige à chacune des parties correspondante
+Les liens des réseaux sociaux redirige dans un nouvel onglet du réseaux correspondant
+
+Police d'écriture utilisé :
+Fairies sur dafont pour les h1
+Stayola sur dafont pour les h2 et les h3
+Roboto pour les paragraphes, liens et boutons
+
+Les couleurs ne sont pas imposés, vous choisissez celles que vous voulez, attention cependant il y a des hovers sur les liens du menu en haut de page et du footer dont les screens sont fournit, il y a également un hover sur les différentes card avec une légère transition sur l'apparition de l'ombre tout autour des différentes cards au survol.
+
+Les images et les textes vous seront également fournit.
+
+Le but étant de réutiliser d'une façon global ce que l'on a déjà vu, n'hésitez pas à vous servir des documentations du site officiel de Bootstrap ainsi que tout les exercices et exos que l'on a fait ensemble.
+
+Bonus : rajout d'une flèche en bas à droite pour remonter en haut de la page.
